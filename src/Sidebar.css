@@ -1,0 +1,19 @@
+.sidebar {
+    flex: 0.2;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar > h2 {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}

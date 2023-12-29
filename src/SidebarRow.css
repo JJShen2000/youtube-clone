@@ -1,0 +1,26 @@
+.sidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.sidebarRow {
+    color: rgb(34, 34, 34);
+    font-size: large !important;
+}
+
+.sidebarRow__title {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 490;
+}
+
+.sidebarRow:hover {
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.sidebarRow.selected {
+    background-color: rgb(243, 243, 243);
+}
