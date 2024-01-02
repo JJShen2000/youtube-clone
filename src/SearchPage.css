@@ -1,0 +1,16 @@
+.searchPage {
+    flex: 0.8;
+}
+
+.searchPage__filter {
+    display: flex;
+    align-items: center;
+    color: rgb(48, 48, 48);
+    font-size: x-small !important;
+    font-weight: 50;
+    float: right;
+}
+
+.searchPage__filter > h2 {
+    margin-right: 5px;
+}
