@@ -2,46 +2,99 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 2px;
     background-color: white;
     position: sticky;
     top: 0;
     z-index: 999;
+    height: 60px;
+}
+
+.header__left {
+    margin-left: 20px;
 }
 
 .header__logo {
-    height: 20px;
-    margin-left: 20px;
+    height: 22px;
+    margin-left: 25px;
 }
 
 .header__center {
     display: flex;
-    align-items: center;
+    align-items: top;
+    position: absolute;
+    right: 10%;     
+    margin-left: 300px;
+    margin-right: 290px;
 }
 
 .header__input {
     display: flex;
-    border-radius: 25px;
-    border: 2px solid #969893;
+    align-items: right;
+    position: sticky;
+    /* border-radius: 25px;*/
+    border: 2px solid #c9c9c9; 
+    border-right: none; 
+    height: 37px;
+    width: 535px;    
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.header__leftSearchIcon {
+    margin-left: 12px;
+}
+
+.header__input.expanded {
+    align-items: center;
+    border: 2px solid #4479d5;
+    width: 565px;    
 }
 
 .header__input > input {
-    flex: 1;
+    margin-left: 20px;
     border: none;
-    margin: 5px;
+    width: 500px;
+}
+
+.header__input.expanded > input {
+    margin-left: 14px;
+    width: 500px;
+}
+
+.header__input >input:focus {
+    outline-width: 0;
+}
+
+.header__input.expanded >input:focus {
+    outline-width: 0;
 }
 
 .header__inputButton {
-    width: 50px !important;
-    color: gray;
-    margin: 5px;
+    color: rgb(83, 83, 83);
+    background-color: rgb(244, 243, 243);
+    width: 60px !important;
+    height: 37px !important;
+    border: 2px solid #c9c9c9; 
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header__mic {
+    height: 37px !important;
+    color: rgb(83, 83, 83);
+    background-color: rgb(244, 243, 243);
+    border-radius: 37%;
+    margin-left: 10px;
 }
 
 .header__icons {
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 
 .header__icon {
-    margin-right: 8px;
+    margin-right: 25px;
+    height: 37px !important;
 }
