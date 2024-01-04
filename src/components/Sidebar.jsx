@@ -15,28 +15,26 @@ import NewspaperSharpIcon from "@mui/icons-material/NewspaperSharp";
 import EmojiEventsOutlinedIcon from "@mui/icons-material/EmojiEventsOutlined";
 import PodcastsSharpIcon from "@mui/icons-material/PodcastsSharp";
 
-function Sidebar() {
-  return (
-    <div className="sidebar">
-      <SidebarRow selected Icon={HomeSharpIcon} title="Home" />
-      <SidebarRow Icon={SlowMotionVideoRoundedIcon} title="Shorts" />
-      <SidebarRow Icon={SubscriptionsOutlinedIcon} title="Subscriptions" />
-      <hr />
-      <SidebarRow Icon={VideoLibrarySharpIcon} title="You" />
-      <SidebarRow Icon={HistorySharpIcon} title="History" />
-      <hr />
-      <h2>Explore</h2>
-      <SidebarRow Icon={WhatshotSharpIcon} title="Trending" />
-      <SidebarRow Icon={MusicNoteTwoToneIcon} title="Music" />
-      <SidebarRow Icon={MovieCreationSharpIcon} title="Movies" />
-      <SidebarRow Icon={SensorsSharpIcon} title="Live" />
-      <SidebarRow Icon={VideogameAssetSharpIcon} title="Gaming" />
-      <SidebarRow Icon={NewspaperSharpIcon} title="News" />
-      <SidebarRow Icon={EmojiEventsOutlinedIcon} title="Sports" />
-      <SidebarRow Icon={PodcastsSharpIcon} title="Podcasts" />
-      <hr />
-    </div>
-  );
-}
+const Sidebar = () => (
+  <div className="sidebar">
+    <SidebarRow selected Icon={HomeSharpIcon} title="Home" />
+    <SidebarRow Icon={SlowMotionVideoRoundedIcon} title="Shorts" />
+    <SidebarRow Icon={SubscriptionsOutlinedIcon} title="Subscriptions" />
+    <hr />
+    <SidebarRow Icon={VideoLibrarySharpIcon} title="You" />
+    <SidebarRow Icon={HistorySharpIcon} title="History" />
+    <hr />
+    <h2>Explore</h2>
+    <SidebarRow Icon={WhatshotSharpIcon} title="Trending" />
+    <SidebarRow Icon={MusicNoteTwoToneIcon} title="Music" />
+    <SidebarRow Icon={MovieCreationSharpIcon} title="Movies" />
+    <SidebarRow Icon={SensorsSharpIcon} title="Live" />
+    <SidebarRow Icon={VideogameAssetSharpIcon} title="Gaming" />
+    <SidebarRow Icon={NewspaperSharpIcon} title="News" />
+    <SidebarRow Icon={EmojiEventsOutlinedIcon} title="Sports" />
+    <SidebarRow Icon={PodcastsSharpIcon} title="Podcasts" />
+    <hr />
+  </div>
+);
 
 export default Sidebar;

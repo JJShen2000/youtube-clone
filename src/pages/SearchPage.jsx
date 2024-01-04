@@ -3,8 +3,7 @@ import { ChannelRow, VideoRow } from "../components";
 import "./SearchPage.css";
 import TuneSharpIcon from "@mui/icons-material/TuneSharp";
 
-function SearchPage() {
-  return (
+const SearchPage = () => (
     <div className="searchPage">
       <div className="searchPage__filter">
         <h2>Filters</h2>
@@ -29,6 +28,5 @@ function SearchPage() {
       />
     </div>
   );
-}
 
 export default SearchPage;

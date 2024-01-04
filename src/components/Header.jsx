@@ -8,7 +8,7 @@ import NotificationsNoneSharpIcon from "@mui/icons-material/NotificationsNoneSha
 import Avatar from "@mui/material/Avatar";
 import { Link } from "react-router-dom";
 
-function Header() {
+const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
   const [expanded, setExpanded] = useState(false);
   const inputRef = useRef(null);
@@ -72,6 +72,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
