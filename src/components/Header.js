@@ -55,10 +55,10 @@ function Header() {
             ref={inputRef}
           />
         </div>
-          <Link to={`/search/${inputSearch}`}>
-            <SearchSharpIcon className="header__inputButton" />
-          </Link>
-        <MicIcon className="header__mic"/>
+        <Link to={`/search/${inputSearch}`}>
+          <SearchSharpIcon className="header__inputButton" />
+        </Link>
+        <MicIcon className="header__mic" />
       </div>
 
       <div className="header__icons">

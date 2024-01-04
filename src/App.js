@@ -1,9 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import RecommendedVideos from "./pages/RecommendedVideos";
-import SearchPage from "./pages/SearchPage";
+import { Header, Sidebar } from "./components";
+import { RecommendedVideos, SearchPage } from "./pages";
 
 function App() {
   return (

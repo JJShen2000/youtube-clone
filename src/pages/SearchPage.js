@@ -1,6 +1,5 @@
 import React from "react";
-import ChannelRow from "../components/ChannelRow";
-import VideoRow from "../components/VideoRow";
+import { ChannelRow, VideoRow } from "../components";
 import "./SearchPage.css";
 import TuneSharpIcon from "@mui/icons-material/TuneSharp";
 
