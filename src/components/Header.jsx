@@ -7,6 +7,7 @@ import VideoCallSharpIcon from "@mui/icons-material/VideoCallSharp";
 import NotificationsNoneSharpIcon from "@mui/icons-material/NotificationsNoneSharp";
 import Avatar from "@mui/material/Avatar";
 import { Link } from "react-router-dom";
+import { BsYoutube } from "react-icons/bs";
 
 const Header = () => {
   const [inputSearch, setInputSearch] = useState("");
@@ -34,12 +35,9 @@ const Header = () => {
     <div className="header">
       <div className="header__left">
         <MenuSharpIcon />
-        <Link to={`/`}>
-          <img
-            className="header__logo"
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg"
-            alt=""
-          />
+        <Link to={`/`} className="header__yt">
+          <BsYoutube size={30} className="header__logo"/>
+          <span>YTClone</span>
         </Link>
       </div>
 

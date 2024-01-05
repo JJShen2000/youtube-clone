@@ -2,7 +2,7 @@
     flex: 0.2;
 }
 
-.sidebar > hr {
+.sidebar>hr {
     height: 1px;
     border: 0;
     background-color: rgb(216, 216, 216);
@@ -10,10 +10,19 @@
     margin-bottom: 10px;
 }
 
-.sidebar > h2 {
+.sidebar>h2 {
     flex: 1;
     margin-left: 20px;
     font-size: 18px;
     font-weight: 600;
     color: black;
+}
+
+.disclaimer {
+    bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    text-align: center;
 }

@@ -34,6 +34,15 @@ const Sidebar = () => (
     <SidebarRow Icon={EmojiEventsOutlinedIcon} title="Sports" />
     <SidebarRow Icon={PodcastsSharpIcon} title="Podcasts" />
     <hr />
+    <div className="disclaimer">
+
+    <h4>Disclaimer:</h4>
+    <p>
+      This website is a demonstration of a YouTube clone intended
+      solely for learning purposes. This clone website is created to
+      showcase programming and design skills and does not provide the full functionality of the YouTube platform.
+    </p>
+    </div>
   </div>
 );
 
